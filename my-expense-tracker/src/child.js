@@ -43,7 +43,7 @@ function Child() {
 
     return (
         <div className="container">
-            <h1 className="text-center">Expense Tracker App Developed By MT.Web</h1>
+            <h1 className="text-center">Expense Tracker App By MT.Web</h1>
 
             <h3>Your Balance <br /> ${getIncome() + getExpense()}</h3>
 
@@ -88,7 +88,7 @@ function Child() {
                         required />
                 </label>
                 <br />
-                <input type="submit" className="submit" value="Add Transaction" />
+                <input type="submit" value="Add Transaction" />
             </form>
           
         </div>
