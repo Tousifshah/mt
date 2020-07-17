@@ -4,7 +4,7 @@ import Countries from './component/CountryPicker/CountryPicker';
 import styles from './Dashboard.modules.css';
 import { fetchSummaryData, fetchDataByCountry } from './api';
 import Flag from './component/Flag/Flag';
-//import CustomMarker from './components/MapsTracker/CustomMarker'
+//import CustomMarker from './component/MapsTracker/CustomMarker'
 
 import MyFooter from './component/Footer/MyFooter'
 

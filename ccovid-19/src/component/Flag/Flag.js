@@ -8,4 +8,4 @@ const Flag = ({flagURL}) => {
   </div>)
 }
 
-export default Flag
+export default Flag;
