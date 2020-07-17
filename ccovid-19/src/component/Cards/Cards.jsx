@@ -3,7 +3,7 @@ import React from 'react'
 import { CardContent, Typography, Grid } from '@material-ui/core';
 import CountUp from 'react-countup';
 import styles from './Cards.Module.css';
-import logo from './../../images/covid19_logo.png';
+//import logo from './../../images/covid19_logo.png';
 
 const Cards = ({summaryData}) => {
 
@@ -89,7 +89,7 @@ const Cards = ({summaryData}) => {
                         </CardContent>
                     </div>
                     <div className={styles.deg4}>
-                        <img className={styles.logo} src={logo} alt="COVID-19" />
+                    
                     </div>
                     <div className={styles.deg5}>
                         <CardContent className={styles.CardContent}>

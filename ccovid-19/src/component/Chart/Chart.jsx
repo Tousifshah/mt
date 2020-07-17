@@ -9,7 +9,7 @@ const Chart = (props) => {
 
   const { confirmed, recovered, deaths } = props.data
 
-  //const summaryData = props.data
+
 
   const [dailyStatisticsData, setdailyStatisticsData] = useState({})
 
@@ -21,10 +21,6 @@ const Chart = (props) => {
 
     fetchDailyDataFromAPI()
   }, [])
-
-  //console.log(`${country} from props from state`);
-  //console.log("Data for charts data")
-  //console.log(dailyStatisticsData)
 
   const lineChart = (
     dailyStatisticsData[0] ? (

@@ -2,7 +2,7 @@ import React from 'react';
 
 import './App.css';
 
-import { Cards, CountryPicker } from './components'
+import { Cards, CountryPicker } from './component'
 import { fetchData } from './api/'
 import styles from './App.module.css';
 

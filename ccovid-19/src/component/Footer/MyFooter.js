@@ -8,9 +8,9 @@ import styles from './MyFooter.module.css';
 function Copyright() {
   return (
     <Typography variant="body2" color="textSecondary">
-      <Link href="https://github.com/abufurqan/covid-tracker">
+      <Link href="https://github.com/Tousifshah/mt">
         View on Github
-      </Link> {'Copyright © '}
+      </Link>
       {new Date().getFullYear()}
       {'.'}
     </Typography>
